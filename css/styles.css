@@ -102,7 +102,6 @@ img {
 .header-contacts-link:hover,
 .header-contacts-link:focus {
     color: var(--header-text-color);
-    fill: var(--header-text-color);
 }
 .current {
     color: var(--header-text-color);
@@ -110,6 +109,7 @@ img {
 .icon-envelope,
 .icon-vector {
     margin-right: 10px;
+    fill: currentColor;
 }
 
 /* -----hero----- */
@@ -351,10 +351,8 @@ img {
 .clients-link:hover,
 .clients-link:focus {
     color: var(--header-text-color);
-    border: 1px solid var(--header-text-color);
+    border-color: var(--header-text-color);
 }
-
-
 
 /* -----footer----- */
 .footer {
